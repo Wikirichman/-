@@ -1,0 +1,84 @@
+top_n: 3
+lookback_days: 120
+min_liquidity_score: -99.0
+
+weights:
+  tape: 0.55
+  supply_demand: 0.30
+  positioning: 0.15
+
+contracts:
+  - symbol: RB0
+    name: 螺纹钢
+    sector: 黑色
+    inventory_symbol: 螺纹钢
+  - symbol: HC0
+    name: 热卷
+    sector: 黑色
+    inventory_symbol: 热卷
+  - symbol: I0
+    name: 铁矿石
+    sector: 黑色
+    inventory_symbol: 铁矿石
+  - symbol: JM0
+    name: 焦煤
+    sector: 黑色
+    inventory_symbol: 焦煤
+  - symbol: J0
+    name: 焦炭
+    sector: 黑色
+    inventory_symbol: 焦炭
+  - symbol: CU0
+    name: 沪铜
+    sector: 有色
+    inventory_symbol: 铜
+  - symbol: AL0
+    name: 沪铝
+    sector: 有色
+    inventory_symbol: 铝
+  - symbol: ZN0
+    name: 沪锌
+    sector: 有色
+    inventory_symbol: 锌
+  - symbol: AU0
+    name: 沪金
+    sector: 贵金属
+  - symbol: AG0
+    name: 沪银
+    sector: 贵金属
+  - symbol: RU0
+    name: 橡胶
+    sector: 化工
+    inventory_symbol: 橡胶
+  - symbol: TA0
+    name: PTA
+    sector: 化工
+    inventory_symbol: PTA
+  - symbol: MA0
+    name: 甲醇
+    sector: 化工
+    inventory_symbol: 甲醇
+  - symbol: PP0
+    name: 聚丙烯
+    sector: 化工
+  - symbol: L0
+    name: 塑料
+    sector: 化工
+  - symbol: M0
+    name: 豆粕
+    sector: 农产品
+    inventory_symbol: 豆粕
+  - symbol: Y0
+    name: 豆油
+    sector: 农产品
+  - symbol: P0
+    name: 棕榈油
+    sector: 农产品
+  - symbol: SR0
+    name: 白糖
+    sector: 农产品
+    inventory_symbol: 白糖
+  - symbol: CF0
+    name: 棉花
+    sector: 农产品
+    inventory_symbol: 棉花

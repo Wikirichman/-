@@ -1,0 +1,49 @@
+{
+  "top_n": 3,
+  "lookback_days": 120,
+  "min_liquidity_score": -99.0,
+  "weights": {
+    "tape": 0.55,
+    "supply_demand": 0.30,
+    "positioning": 0.15
+  },
+  "supply_demand": {
+    "required_for_selection": true
+  },
+  "positioning": {
+    "required_for_selection": true,
+    "min_oi_change_20d": 0.05
+  },
+  "intraday": {
+    "weight": 0.25,
+    "required_for_selection": true,
+    "lookback_bars": 80,
+    "swing_window": 2,
+    "range_lookback": 16,
+    "max_range_atr": 6.0,
+    "min_breakout_atr": 0.10,
+    "min_breakout_volume_ratio": 1.0
+  },
+  "contracts": [
+    {"symbol": "RB0", "name": "螺纹钢", "sector": "黑色", "inventory_symbol": "螺纹钢", "inventory_code": "RB"},
+    {"symbol": "HC0", "name": "热卷", "sector": "黑色", "inventory_symbol": "热卷", "inventory_code": "HC"},
+    {"symbol": "I0", "name": "铁矿石", "sector": "黑色", "inventory_symbol": "铁矿石", "inventory_code": "I"},
+    {"symbol": "JM0", "name": "焦煤", "sector": "黑色", "inventory_symbol": "焦煤", "inventory_code": "JM"},
+    {"symbol": "J0", "name": "焦炭", "sector": "黑色", "inventory_symbol": "焦炭", "inventory_code": "J"},
+    {"symbol": "CU0", "name": "沪铜", "sector": "有色", "inventory_symbol": "铜", "inventory_code": "CU", "external_market": "LME", "external_inventory_symbol": "铜", "external_price_symbol": "CAD"},
+    {"symbol": "AL0", "name": "沪铝", "sector": "有色", "inventory_symbol": "铝", "inventory_code": "AL", "external_market": "LME", "external_inventory_symbol": "铝", "external_price_symbol": "AHD"},
+    {"symbol": "ZN0", "name": "沪锌", "sector": "有色", "inventory_symbol": "锌", "inventory_code": "ZN", "external_market": "LME", "external_inventory_symbol": "锌", "external_price_symbol": "ZSD"},
+    {"symbol": "AU0", "name": "沪金", "sector": "贵金属", "inventory_code": "AU", "external_market": "COMEX", "external_inventory_symbol": "黄金", "external_price_symbol": "GC"},
+    {"symbol": "AG0", "name": "沪银", "sector": "贵金属", "inventory_code": "AG", "external_market": "COMEX", "external_inventory_symbol": "白银", "external_price_symbol": "SI"},
+    {"symbol": "RU0", "name": "橡胶", "sector": "化工", "inventory_symbol": "橡胶", "inventory_code": "RU"},
+    {"symbol": "TA0", "name": "PTA", "sector": "化工", "inventory_symbol": "PTA", "inventory_code": "TA"},
+    {"symbol": "MA0", "name": "甲醇", "sector": "化工", "inventory_symbol": "甲醇", "inventory_code": "MA"},
+    {"symbol": "PP0", "name": "聚丙烯", "sector": "化工", "inventory_code": "PP"},
+    {"symbol": "L0", "name": "塑料", "sector": "化工", "inventory_code": "L"},
+    {"symbol": "M0", "name": "豆粕", "sector": "农产品", "inventory_symbol": "豆粕", "inventory_code": "M"},
+    {"symbol": "Y0", "name": "豆油", "sector": "农产品", "inventory_code": "Y"},
+    {"symbol": "P0", "name": "棕榈油", "sector": "农产品", "inventory_code": "P"},
+    {"symbol": "SR0", "name": "白糖", "sector": "农产品", "inventory_symbol": "白糖", "inventory_code": "SR"},
+    {"symbol": "CF0", "name": "棉花", "sector": "农产品", "inventory_symbol": "棉花", "inventory_code": "CF"}
+  ]
+}
